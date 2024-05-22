@@ -4,11 +4,16 @@ public class Rettangolo {
     // ATTRIBUTI
     private double larghezza;
     private double altezza;
+
+
     // COSTRUTTORI
     public Rettangolo(double larghezza, double altezza){
         this.larghezza=larghezza;
         this.altezza=altezza;
     }
+
+
+
     // METODI
     public void calcPerimetro(){
         System.out.println("Ciao sono un rettangolo, il mio perimetro è "
@@ -18,4 +23,11 @@ public class Rettangolo {
                 + (this.altezza * this.larghezza) );
     }
 
+
 }
+/*
+*
+*
+*
+*
+* */
